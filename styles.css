@@ -20,6 +20,8 @@ body {
   line-height: 1.4;
   color: var(--color-white);
   margin: 0;
+  text-align: center;
+  align-items: center;
 }
 
 /* mobile friendly alternative to using background-attachment: fixed */
@@ -181,6 +183,5 @@ form {
 }
 
 #main {
-    text-align: center;
-    align-items: center;
+    
 }
