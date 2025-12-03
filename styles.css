@@ -179,3 +179,8 @@ form {
   border-radius: 2px;
   cursor: pointer;
 }
+
+#main {
+    text-align: center;
+    align-items: center;
+}
