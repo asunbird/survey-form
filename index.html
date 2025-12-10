@@ -10,26 +10,28 @@
       <p id="description">🚗🛠️🥐 Which Travel Superhero Are You?</p>
     </header>
 
-    <main>
+    <div class="container">
       <form id="survey-form">
         <div class="form-group">
           <label id="name-label" for="name">Name</label>
           <input
+            type="text"
             id="name"
             class="form-control"
-            type="text"
-            name="full-name"
+            name="name"
             placeholder="Enter your name"
+            required
           />
         </div>
         <div class="form-group">
           <label id="email-label" for="email">Email</label>
           <input
+            type="email"
             id="email"
             class="form-control"
-            type="text"
             name="email"
             placeholder="Enter your email"
+            required
           />
         </div>
         <div class="form-group">
@@ -42,13 +44,18 @@
             placeholder="Age"
           />
         </div>
-        <div>
+        <div class="form-group">
           <p></p>
           <label><input /></label>
           <label><input /></label>
           <label><input /></label>
         </div>
+        <div class="form-group"></div>
+        <div class="form-group"></div>
+        <div class="form-group"></div>
+        <div class="form-group"></div>
+        <div class="form-group"></div>
       </form>
-    </main>
+    </div>
   </body>
 </html>
